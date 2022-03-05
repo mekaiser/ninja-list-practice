@@ -30,7 +30,6 @@ export const getStaticProps = async (context) => {
 const Details = ({ ninja }) => {
   return (
     <div>
-        <h1>Ninja Details</h1>
       <h2>{ninja.name}</h2>
       <p>{ninja.email}</p>
       <p>{ninja.website}</p>
